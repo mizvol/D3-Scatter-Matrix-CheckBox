@@ -1,5 +1,4 @@
-var width = 960,
-    size = 230,
+var size = 230,
     padding = 20;
 
 var x = d3.scaleLinear()
