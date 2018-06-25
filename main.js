@@ -34,7 +34,7 @@ d3.csv("flowers.csv", function(error, data) {
     xAxis.tickSize(size * n);
     yAxis.tickSize(-size * n);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#chart").append("svg")
         .attr("width", size * n + padding)
         .attr("height", size * n + padding)
         .append("g")
